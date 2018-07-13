@@ -15,14 +15,13 @@ ms.date: 06/08/2017
 
 
 
- **Description**
+## Description
 Provides access to a computer's file system.
- **Syntax**
+
+## Syntax
  **Scripting.FileSystemObject**
- **Remarks**
+## Remarks
 The following code illustrates how the  **FileSystemObject** is used to return a **TextStream** object that can be read from or written to:
-
-
 
 ```vb
 Set fs = CreateObject("Scripting.FileSystemObject")
@@ -31,5 +30,5 @@ a.WriteLine("This is a test.")
 a.Close
 ```
 
-In the code shown above, the  **CreateObject** function returns the **FileSystemObject** ( `fs` ). The **CreateTextFile** method then creates the file as a **TextStream** object ( `a` ), and the **WriteLine** method writes a line of text to the created text file. The **Close** method flushes the buffer and closes the file.
+In the code shown above, the  **CreateObject** function returns the **FileSystemObject** (`fs`). The **CreateTextFile** method then creates the file as a **TextStream** object (`a`), and the **WriteLine** method writes a line of text to the created text file. The **Close** method flushes the buffer and closes the file.
 
