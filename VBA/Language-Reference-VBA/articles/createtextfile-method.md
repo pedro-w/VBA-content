@@ -18,7 +18,7 @@ ms.date: 06/08/2017
 ## Description
 Creates a specified file name and returns a  **TextStream** object that can be used to read from or write to the file.
 
-## Syntax**
+## Syntax
  _object_. **CreateTextFile(**_filename_ [ **,**_overwrite_ [ **,**_unicode_ ]] **)**
 The  **CreateTextFile** method has these parts:
 
